@@ -1,0 +1,23 @@
+{
+   "type": "aurora-data-api",
+   "database": "example_database",
+   "secretArn": "arn:aws:secretsmanager:us-east-1:682438953442:secret:rds-db-credentials/cluster-QDMKPRRNXF5TOLCS7TXGHNTLSQ/admin-kYv4tq",
+   "resourceArn": "arn:aws:rds:us-east-1:682438953442:cluster:database-1",
+   "region": "us-east-1",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
