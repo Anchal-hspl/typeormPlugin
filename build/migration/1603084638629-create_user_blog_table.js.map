@@ -1,0 +1,1 @@
+{"version":3,"file":"1603084638629-create_user_blog_table.js","sourceRoot":"","sources":["../../src/migration/1603084638629-create_user_blog_table.ts"],"names":[],"mappings":";;;;;;;;;;;;AAEA,MAAa,mCAAmC;IAE/B,EAAE,CAAC,WAAwB;;YACpC,MAAM,WAAW,CAAC,KAAK,CACnB;;;;;;gBAMI,CACP,CAAA;QACL,CAAC;KAAA;IAEY,IAAI,CAAC,WAAwB;;QAC1C,CAAC;KAAA;CAEJ;AAjBD,kFAiBC"}
